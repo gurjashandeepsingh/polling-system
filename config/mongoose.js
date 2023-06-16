@@ -35,7 +35,8 @@
 
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://127.0.0.1:27017/GurjashanDataBase")
+// mongoose.connect("mongodb://127.0.0.1:27017/GurjashanDataBase")
+mongoose.connect("mongodb+srv://gurjashandeepsingh1:KwANZpC918qmEDu2@cluster0.bfexgjw.mongodb.net/?retryWrites=true&w=majority")
 .then(() => {
     console.log(`Database is successfully connected with the server`);
 })
